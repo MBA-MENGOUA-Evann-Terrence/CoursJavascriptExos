@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function nombre_mot(phrase)
+        {
+                
+            phrase = phrase.trim()
+                
+                
+            let une_prase = phrase.split(" ")
+
+            
+                
+            return une_prase.length;
+        }
+
+        let ma_phrase = prompt("entrer votre phrase")
+
+        nbr_mot = nombre_mot(ma_phrase)
+
+        console.log(nbr_mot)
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<script>
+    function compterLongueurSuperieure(tableau) {
+let count = 0;
+for (let i = 0; i < tableau.length; i++) {
+  if (tableau[i].length > 5) {
+    count++;
+  }
+}
+return count;
+}
+function nombrePlusEleve(tableau) {
+let maxNombre = Number.NEGATIVE_INFINITY;
+for (let i = 0; i < tableau.length; i++) {
+  if (tableau[i] > maxNombre) {
+    maxNombre = tableau[i];
+  }
+}
+return maxNombre;
+}
+
+</script>
